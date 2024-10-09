@@ -1,0 +1,33 @@
+{
+  "name": "jira-fetch",
+  "version": "1.0.0",
+  "description": "A Node.js app to fetch Jira issues and simplify the data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.0.1",
+    "node-fetch": "^2.7.0",
+    "base-64": "^1.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-repo-url.git"
+  },
+  "keywords": [
+    "jira",
+    "fetch",
+    "api"
+  ],
+  "author": "Brian Tobler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/your-repo-url/issues"
+  },
+  "homepage": "https://github.com/your-repo-url#readme"
+}
